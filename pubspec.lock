@@ -36,6 +36,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.0"
+  calculator:
+    dependency: "direct main"
+    description:
+      path: "packages/calculator"
+      relative: true
+    source: path
+    version: "0.0.0"
   charcode:
     dependency: transitive
     description:

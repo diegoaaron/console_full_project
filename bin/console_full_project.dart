@@ -51,4 +51,57 @@ void main() {
   print(prueba1 == prueba2); // true
   print(prueba1); // [1,2]
   print(prueba2); // [1,2]
+
+  int variableEntera = 5;
+  print(
+      variableEntera.toString() + " " + variableEntera.runtimeType.toString());
+  double variableDecimal = 5.5;
+  print(variableDecimal.toString() +
+      " " +
+      variableDecimal.runtimeType.toString());
+  num variableEnteraODecimal = 5;
+  print(variableEnteraODecimal.toString() +
+      " " +
+      variableEnteraODecimal.runtimeType.toString());
+  print(variableEnteraODecimal.hashCode);
+
+  String s1 = 'Hola Mundo';
+  String s2 = "Este es otra forma de 'hola munod'";
+  String s3 = 'Esta es un tercera forma de \'hola mundo\' ';
+
+  double temperatura = 20.5;
+  String celcius = 'celcius';
+  String s4 =
+      'La temperatura es de $temperatura grados ${celcius.toUpperCase()}';
+
+  print(s4);
+
+  // Concatenación
+
+  String a = 'Hello';
+  String b = 'WCKD';
+
+  String simpleConcatenation = 'hola' ' mundo';
+  String plusConcatenation = a + b;
+  print(simpleConcatenation);
+  print(plusConcatenation);
+
+  // salto de linea
+
+  String intro = " hola a todos \nesto es un salto de linea";
+  print(intro);
+
+  String body = '''esto es otra forma
+  de hacer un salto de linea ''';
+  print(body);
+
+  // escrbir texto crudo
+
+  String rawString = r'esta es una forma de \n escribir texto crudo';
+  print(rawString);
+
+  // soporte para UNICODE
+
+  String unicodeExample = 'aqui un emoji de rosa \u{1F339}';
+  print(unicodeExample);
 }

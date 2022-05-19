@@ -20,6 +20,35 @@ void main() {
   print('Subtract: ' + calculateSubtract().toString());
   print('Multiply: ' + calculateMultiply().toString());
   print('Divide: ' + calculateDivide().toString());
-
   mi.probandoLATE();
+
+  var x1 = 5;
+  print(x1.runtimeType); // int
+
+  // x1 = 11.0;  error type of variable
+
+  dynamic x2 = 10;
+
+  print(x2.runtimeType); // int
+
+  x2 = 11.0;
+
+  print(x2.runtimeType); // double
+
+  // FINAL & CONST
+
+  final geek1 = "Geeks For Geeks";
+  print(geek1);
+
+  final String geek2 = "Geeks For Geeks Again!!";
+  print(geek2);
+
+  mifunconst() => const [1, 2];
+
+  var prueba1 = mifunconst();
+  var prueba2 = mifunconst();
+
+  print(prueba1 == prueba2); // true
+  print(prueba1); // [1,2]
+  print(prueba2); // [1,2]
 }

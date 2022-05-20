@@ -104,4 +104,35 @@ void main() {
 
   String unicodeExample = 'aqui un emoji de rosa \u{1F339}';
   print(unicodeExample);
+
+  bool x = true;
+
+  if (x) {
+    print('true');
+  }
+
+  List<int> list = [1, 2, 3];
+  list.forEach(print);
+
+  print(list[0]);
+  print(list[list.length - 1]);
+
+  List<bool> booleans = [true, false, true];
+  List<A> listOfObjects = [A(), A(), A()];
+
+  List<num> listOfIntegersAnDoubles = [2, 3.3, 5];
+
+  List<Object> listOfDiferentElements = [2, 3.3, 'hola', true];
+
+  var integerValue = listOfDiferentElements[0];
+
+  print(integerValue);
+  print(integerValue.runtimeType);
+
+  List<int> ax = [1, 2, 3];
+  List<int> bx = [...ax, 4, ...ax];
+
+  print(bx);
 }
+
+class A {}

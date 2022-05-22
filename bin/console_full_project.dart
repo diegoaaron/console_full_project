@@ -1,5 +1,5 @@
 import 'package:console_full_project/console_full_project.dart';
-import 'test_dos.dart';
+import 'list_review.dart';
 
 class PruebaTest {
   late int variable1 = obtenervar1();
@@ -135,7 +135,7 @@ void main() {
 
   print(bx);
 
-  revisando();
+  revisandoListas();
 }
 
 class A {}

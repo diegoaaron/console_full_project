@@ -1,4 +1,4 @@
-void revisando() {
+void revisandoListas() {
   print("probando otro archivo");
   print('----------------------');
 

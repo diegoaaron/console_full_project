@@ -1,8 +1,8 @@
 void revisandoListas() {
-  print("probando otro archivo");
   print('----------------------');
-
-  // . & .?  (dot operator) permite utilziar funciones de una clase
+  print('--------LIST----------');
+  print('----------------------');
+  // . & ?.  (dot operator) permite utilziar funciones de una clase
 
   int a = 5;
   print(a.isEven);
@@ -10,7 +10,7 @@ void revisandoListas() {
   int? b = null;
   print(b?.isEven);
 
-  // .. & ..? (dot dot operator  - cascade operator)
+  // .. & ?.. (dot dot operator  - cascade operator)
   List<int> list1 = [1, 0, 2];
   list1.sort();
   list1 = list1.reversed.toList();
@@ -26,4 +26,33 @@ void revisandoListas() {
       .toList();
 
   print(list2);
+
+  // ... & ...?
+
+  List<int> x = [1, 2, 3];
+  List<int> y = [4, 5, 6];
+
+  List<int> z = [...x, ...y];
+
+  bool salesActive = true;
+  var salesMenu = [
+    'Offers1',
+    'Offers2',
+  ];
+
+  List<String> menu = [
+    'Home',
+    'Store',
+    'About',
+    'Search',
+    if (salesActive)
+      for (var item in salesMenu) item,
+  ];
+
+  print(menu);
+
+  List<int> list3 = const [1, 2, 3];
+  List<int> list4 = const [1, 2, 3];
+  print(list3.hashCode);
+  print(list4.hashCode);
 }

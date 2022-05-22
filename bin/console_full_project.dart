@@ -1,6 +1,7 @@
 import 'package:console_full_project/console_full_project.dart';
 import 'list_review.dart';
 import 'sets_review.dart';
+import 'maps_review.dart';
 
 class PruebaTest {
   late int variable1 = obtenervar1();
@@ -138,6 +139,7 @@ void main() {
 
   revisandoListas();
   revisandoSets();
+  validacionMaps();
 }
 
 class A {}

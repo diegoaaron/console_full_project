@@ -2,6 +2,7 @@ import 'package:console_full_project/console_full_project.dart';
 import 'list_review.dart';
 import 'sets_review.dart';
 import 'maps_review.dart';
+import 'funciones_first.dart';
 
 class PruebaTest {
   late int variable1 = obtenervar1();
@@ -140,6 +141,7 @@ void main() {
   revisandoListas();
   revisandoSets();
   validacionMaps();
+  revisionFunciones();
 }
 
 class A {}

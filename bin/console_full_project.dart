@@ -3,6 +3,7 @@ import 'list_review.dart';
 import 'sets_review.dart';
 import 'maps_review.dart';
 import 'funciones_first.dart';
+import 'operator_evaluate.dart';
 
 class PruebaTest {
   late int variable1 = obtenervar1();
@@ -142,6 +143,7 @@ void main() {
   revisandoSets();
   validacionMaps();
   revisionFunciones();
+  operatorTest();
 }
 
 class A {}

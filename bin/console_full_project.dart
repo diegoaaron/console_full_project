@@ -6,6 +6,8 @@ import 'funciones_first.dart';
 import 'operator_evaluate.dart';
 import 'flow_control.dart';
 import 'exceptiontest.dart';
+import 'classtest.dart';
+import 'classTwotest.dart';
 
 class PruebaTest {
   late int variable1 = obtenervar1();
@@ -148,6 +150,8 @@ void main() {
   operatorTest();
   flowtest();
   excpecionestest();
+  testDart();
+  parania();
 }
 
 class A {}

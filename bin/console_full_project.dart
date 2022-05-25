@@ -5,6 +5,7 @@ import 'maps_review.dart';
 import 'funciones_first.dart';
 import 'operator_evaluate.dart';
 import 'flow_control.dart';
+import 'exceptiontest.dart';
 
 class PruebaTest {
   late int variable1 = obtenervar1();
@@ -146,6 +147,7 @@ void main() {
   revisionFunciones();
   operatorTest();
   flowtest();
+  excpecionestest();
 }
 
 class A {}

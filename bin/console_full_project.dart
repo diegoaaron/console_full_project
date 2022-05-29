@@ -150,16 +150,13 @@ void main() {
   revisandoListas();
   revisandoSets();
   validacionMaps();
-<<<<<<< HEAD
   validacionRunes();
-=======
   revisionFunciones();
   operatorTest();
   flowtest();
   excpecionestest();
   testDart();
   parania();
->>>>>>> 9a1d967771f4b09148af117d3c7625da0da979cc
 }
 
 class A {}

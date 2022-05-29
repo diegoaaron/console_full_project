@@ -2,7 +2,16 @@ import 'package:console_full_project/console_full_project.dart';
 import 'list_review.dart';
 import 'sets_review.dart';
 import 'maps_review.dart';
+<<<<<<< HEAD
 import 'runes_review.dart';
+=======
+import 'funciones_first.dart';
+import 'operator_evaluate.dart';
+import 'flow_control.dart';
+import 'exceptiontest.dart';
+import 'classtest.dart';
+import 'classTwotest.dart';
+>>>>>>> 9a1d967771f4b09148af117d3c7625da0da979cc
 
 class PruebaTest {
   late int variable1 = obtenervar1();
@@ -141,7 +150,16 @@ void main() {
   revisandoListas();
   revisandoSets();
   validacionMaps();
+<<<<<<< HEAD
   validacionRunes();
+=======
+  revisionFunciones();
+  operatorTest();
+  flowtest();
+  excpecionestest();
+  testDart();
+  parania();
+>>>>>>> 9a1d967771f4b09148af117d3c7625da0da979cc
 }
 
 class A {}

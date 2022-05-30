@@ -42,3 +42,15 @@ void parania() {
   print('alfa.d; --> ${alfa.d}');
   print('alfa.e; --> ${alfa.e}');
 }
+
+// otra forma de definir un constructor.
+class B {
+  B(this.a, this.b, this.c) : d = b {
+    d = b;
+  }
+
+  int a;
+  int b;
+  int c;
+  int d;
+}

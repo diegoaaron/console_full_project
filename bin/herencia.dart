@@ -1,4 +1,6 @@
 // la palabra reservada abstract permite crear interfaces dentro de Dart
+// las interfaces son llamadas a través de 'implements' y se puede implementar
+// más de una clase
 
 abstract class UserRepositoryInterface {
   late final List<int> usersList;
